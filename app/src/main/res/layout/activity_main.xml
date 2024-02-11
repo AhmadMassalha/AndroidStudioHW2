@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/street_IMG_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:background= "#87CEEB"
+        />
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:orientation="horizontal"
+        >
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/game_heart1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/heart" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/game_heart2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/heart" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/game_heart3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/heart" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/left_arrow"
+                android:id="@+id/game_left"
+                android:background="@null"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/right_arrow"
+                android:id="@+id/game_right"
+                android:background="@null"
+                />
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="3dp"
+        android:orientation="vertical"
+        android:weightSum="6">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="100dp"
+            android:layout_weight="0.5"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_stone1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/stone"
+                android:visibility="invisible" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_stone2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/stone"
+                android:visibility="invisible"
+
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_stone3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/stone"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="0.5"
+            android:orientation="horizontal"
+            android:weightSum="3">
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_stone4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/stone"
+                android:visibility="invisible" />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_stone5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/stone"
+                android:visibility="invisible"
+                />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_stone6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/stone"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_centerInParent="true"
+            android:layout_weight="0.5"
+            android:orientation="horizontal"
+            android:weightSum="3">
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_stone7"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/stone"
+                android:visibility="invisible" />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_stone8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/stone"
+                android:visibility="invisible"
+                />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_stone9"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/stone"
+                android:visibility="invisible" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_centerInParent="true"
+            android:layout_weight="0.5"
+            android:orientation="horizontal"
+            android:weightSum="3">
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_stone10"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/stone"
+                android:visibility="invisible" />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_stone11"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/stone"
+                android:visibility="invisible"
+                />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_stone12"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/stone"
+                android:visibility="invisible" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_centerInParent="true"
+            android:layout_weight="0.5"
+            android:orientation="horizontal"
+            android:weightSum="3">
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_stone13"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/stone"
+                android:visibility="invisible" />
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_stone14"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/stone"
+                android:visibility="invisible"
+
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_stone15"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/stone"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_centerInParent="true"
+            android:layout_weight="0.5"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:visibility="visible"
+            >
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_car"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                android:id="@+id/game_carLeft"
+                >
+            </com.google.android.material.imageview.ShapeableImageView>
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_car"
+                android:layout_weight="1"
+                android:visibility="visible"
+                android:id="@+id/game_carCenter"
+                >
+            </com.google.android.material.imageview.ShapeableImageView>
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_car"
+                android:layout_weight="1"
+                android:visibility="invisible"
+                android:id="@+id/game_carRight"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
