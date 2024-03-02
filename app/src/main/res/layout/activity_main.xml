@@ -97,206 +97,624 @@
         android:layout_height="match_parent"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="3dp"
+        android:layout_marginTop="50dp"
         android:orientation="vertical"
         android:weightSum="6">
-
-
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="70dp"
-            android:layout_marginTop="100dp"
-            android:layout_weight="0.5"
-            android:orientation="horizontal"
-            android:weightSum="3">
-
-            <com.google.android.material.imageview.ShapeableImageView
-                android:id="@+id/game_stone1"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/stone"
-                android:visibility="invisible" />
-
-            <com.google.android.material.imageview.ShapeableImageView
-                android:id="@+id/game_stone2"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/stone"
-                android:visibility="invisible"
-
-                />
-
-            <com.google.android.material.imageview.ShapeableImageView
-                android:id="@+id/game_stone3"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/stone"
-                android:visibility="invisible" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="70dp"
-            android:layout_weight="0.5"
-            android:orientation="horizontal"
-            android:weightSum="3">
-            <com.google.android.material.imageview.ShapeableImageView
-                android:id="@+id/game_stone4"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/stone"
-                android:visibility="invisible" />
-            <com.google.android.material.imageview.ShapeableImageView
-                android:id="@+id/game_stone5"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/stone"
-                android:visibility="invisible"
-                />
-            <com.google.android.material.imageview.ShapeableImageView
-                android:id="@+id/game_stone6"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/stone"
-                android:visibility="invisible" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="70dp"
-            android:layout_centerInParent="true"
-            android:layout_weight="0.5"
-            android:orientation="horizontal"
-            android:weightSum="3">
-            <com.google.android.material.imageview.ShapeableImageView
-                android:id="@+id/game_stone7"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/stone"
-                android:visibility="invisible" />
-            <com.google.android.material.imageview.ShapeableImageView
-                android:id="@+id/game_stone8"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/stone"
-                android:visibility="invisible"
-                />
-            <com.google.android.material.imageview.ShapeableImageView
-                android:id="@+id/game_stone9"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/stone"
-                android:visibility="invisible" />
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="70dp"
-            android:layout_centerInParent="true"
-            android:layout_weight="0.5"
-            android:orientation="horizontal"
-            android:weightSum="3">
-            <com.google.android.material.imageview.ShapeableImageView
-                android:id="@+id/game_stone10"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/stone"
-                android:visibility="invisible" />
-            <com.google.android.material.imageview.ShapeableImageView
-                android:id="@+id/game_stone11"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/stone"
-                android:visibility="invisible"
-                />
-            <com.google.android.material.imageview.ShapeableImageView
-                android:id="@+id/game_stone12"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/stone"
-                android:visibility="invisible" />
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="70dp"
-            android:layout_centerInParent="true"
-            android:layout_weight="0.5"
-            android:orientation="horizontal"
-            android:weightSum="3">
-            <com.google.android.material.imageview.ShapeableImageView
-                android:id="@+id/game_stone13"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/stone"
-                android:visibility="invisible" />
-            <com.google.android.material.imageview.ShapeableImageView
-                android:id="@+id/game_stone14"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/stone"
-                android:visibility="invisible"
-
-                />
-
-            <com.google.android.material.imageview.ShapeableImageView
-                android:id="@+id/game_stone15"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/stone"
-                android:visibility="invisible" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="70dp"
-            android:layout_centerInParent="true"
-            android:layout_weight="0.5"
-            android:orientation="horizontal"
-            android:weightSum="3"
-            android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="75dp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal"
+        android:weightSum="5">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
             >
             <com.google.android.material.imageview.ShapeableImageView
-                android:layout_width="0dp"
+                android:id="@+id/game_stone1"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:srcCompat="@drawable/ic_car"
-                android:layout_weight="1"
                 android:visibility="invisible"
-                android:id="@+id/game_carLeft"
-                >
-            </com.google.android.material.imageview.ShapeableImageView>
-            <com.google.android.material.imageview.ShapeableImageView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                app:srcCompat="@drawable/ic_car"
-                android:layout_weight="1"
-                android:visibility="visible"
-                android:id="@+id/game_carCenter"
-                >
-            </com.google.android.material.imageview.ShapeableImageView>
-            <com.google.android.material.imageview.ShapeableImageView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                app:srcCompat="@drawable/ic_car"
-                android:layout_weight="1"
-                android:visibility="invisible"
-                android:id="@+id/game_carRight"
+                app:srcCompat="@drawable/stone"
                 />
-        </LinearLayout>
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_coin1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_coin" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_stone2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/stone"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_coin2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_coin" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_stone3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/stone"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_coin3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_coin" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_stone4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/stone"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_coin4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_coin" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_stone5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/stone"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_coin5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_coin" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal"
+        android:weightSum="5">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_stone6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/stone"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_coin6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_coin" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_stone7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/stone"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_coin7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_coin" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_stone8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/stone"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_coin8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_coin" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_stone9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/stone"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_coin9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_coin" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_stone10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/stone"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_coin10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_coin" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_centerInParent="true"
+        android:layout_weight="0.5"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_stone11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/stone"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_coin11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_coin" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_stone12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/stone"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_coin12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_coin" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_stone13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/stone"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_coin13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_coin" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_stone14"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/stone"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_coin14"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_coin" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_stone15"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/stone"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_coin15"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_coin" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_centerInParent="true"
+        android:layout_weight="0.5"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_stone16"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/stone"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_coin16"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_coin" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_stone17"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/stone"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_coin17"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_coin" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_stone18"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/stone"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_coin18"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_coin" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_stone19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/stone"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_coin19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_coin" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_stone20"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/stone"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_coin20"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_coin" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_centerInParent="true"
+        android:layout_weight="0.5"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_stone21"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/stone"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_coin21"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_coin" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_stone22"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/stone"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_coin22"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_coin" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_stone23"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/stone"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_coin23"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_coin" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_stone24"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/stone"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_coin24"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_coin" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_stone25"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/stone"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/game_coin25"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/ic_coin" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_centerInParent="true"
+        android:layout_weight="0.5"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        android:weightSum="5">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/game_car1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/ic_car">
+
+        </com.google.android.material.imageview.ShapeableImageView>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/game_car2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/ic_car">
+
+        </com.google.android.material.imageview.ShapeableImageView>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/game_car3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="visible"
+            app:srcCompat="@drawable/ic_car" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/game_car4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/ic_car" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/game_car5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/ic_car" />
+
+    </LinearLayout>
     </LinearLayout>
 
 </RelativeLayout>
